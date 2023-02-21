@@ -50,7 +50,7 @@ function copy(array){
   return (array.slice());
 }
 
-console.log(copy(originalFlavors));
+// console.log(copy(originalFlavors));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -68,7 +68,7 @@ function is31Flavors(array){
   return array.length === 31;
  }
 
-console.log(is31Flavors(originalFlavors));
+// console.log(is31Flavors(originalFlavors));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Corporate has come to you with an idea for a new flavor: Rainbow Sherbert! They think this will be a game changer. You need to modify the array to include this flavor. 
@@ -89,7 +89,7 @@ function addFlavor(originalFlavors, newFlavor){
   
  }
 
- console.log(addFlavor(originalFlavors, "Rainbow Sherbert"));
+//  console.log(addFlavor(originalFlavors, "Rainbow Sherbert"));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -104,9 +104,12 @@ Use the removeLastFlavor function below to do the following:
 */
 
 
-function removeLastFlavor(/*your code here*/){
- /*your code here*/
+function removeLastFlavor(array){
+ array.pop();
+ return array;
 }
+
+// console.log(removeLastFlavor(originalFlavors));
 
 
 
