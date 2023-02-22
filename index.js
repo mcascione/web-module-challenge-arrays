@@ -83,9 +83,9 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(originalFlavors, newFlavor){
-  originalFlavors.unshift(newFlavor);
-  return originalFlavors;
+function addFlavor(array, newFlavor){
+  array.unshift(newFlavor);
+  return array;
   
  }
 
